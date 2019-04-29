@@ -4,23 +4,12 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  <nav class="navbar navbar-dark bg-dark">
+    <a href="/" class="navtext"> Clicky Game!</a>
+    <span class="navtext">Click an Image to Start!</span>
+    <span class="navtext">Score: 0 | Top Score: 0</span>
+  </nav>
+  )
 }
 
 export default App;

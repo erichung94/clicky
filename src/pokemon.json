@@ -1,0 +1,62 @@
+[
+    {
+      "id": 1,
+      "name": "Articuno",
+      "image": "../public/images/Articuno"
+    },
+    {
+      "id": 2,
+      "name": "Entei",
+      "image": "../public/images/Entei"
+    },
+    {
+      "id": 3,
+      "name": "Groudon",
+      "image": "../public/images/Groudon"
+    },
+    {
+      "id": 4,
+      "name": "Kyogre",
+      "image": "../public/images/Kyogre"
+    },
+    {
+      "id": 5,
+      "name": "Moltres",
+      "image": "../public/images/Moltres"
+    },
+    {
+      "id": 6,
+      "name": "Raikou",
+      "image": "../public/images/Raikou"
+    },
+    {
+      "id": 7,
+      "name": "Rayquaza",
+      "image": "../public/images/Rayquaza"
+    },
+    {
+      "id": 8,
+      "name": "Regice",
+      "image": "../public/images/Regice"
+    },
+    {
+      "id": 9,
+      "name": "Regirock",
+      "image": "../public/images/Regirock"
+    },
+    {
+      "id": 10,
+      "name": "Registeel",
+      "image": "../public/images/Registeel"
+    },
+    {
+      "id": 11,
+      "name": "Suicine",
+      "image": "../public/images/Suicine"
+    },
+    {
+      "id": 12,
+      "name": "Zapdos",
+      "image": "../public/images/Zapdos"
+    }
+  ]
