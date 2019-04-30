@@ -1,0 +1,17 @@
+.card {
+    background: #fff;
+    border-radius: 2px;
+    height: 375px;
+    position: relative;
+    width: 375px;
+    margin-bottom: 1rem;
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+    background:#6CADDC;
+  }
+  
+  .card > .img-container {
+    height: 60%;
+    overflow: hidden;
+    text-align: center;
+    background:#6CADDC;
+  }

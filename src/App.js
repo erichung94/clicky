@@ -1,15 +1,37 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import PokemonCard from "./Components/PokemonCard";
+import Wrapper from "./Components/Wrapper";
+import pokemon from "./pokemon.json";
 
-function App() {
-  return (
-  <nav class="navbar navbar-dark bg-dark">
-    <a href="/" class="navtext"> Clicky Game!</a>
-    <span class="navtext">Click an Image to Start!</span>
-    <span class="navtext">Score: 0 | Top Score: 0</span>
-  </nav>
-  )
+const styles = {
+  footer: {
+    height: "100px",
+    background: "darkblue",
+    width: "100%",
+    color: "white"
+  }
+}
+
+class App extends React.Component {
+  state = {
+    pokemon
+  };
+
+  render() {
+    return <div>
+      <Wrapper>
+        {this.state.pokemon.map(pokeman => (
+          <PokemonCard
+            id={pokeman.id}
+            key={pokeman.id}
+            image={pokeman.image}
+          />
+        ))}
+      </Wrapper>
+      <div style={styles.footer}>Whatabatbingbong</div>
+      </div>
+  
+  }
 }
 
 export default App;
