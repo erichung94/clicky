@@ -2,61 +2,73 @@
     {
       "id": 1,
       "name": "Articuno",
-      "image": "./images/Articuno.png"
+      "image": "./images/Articuno.png",
+      "clicked": false
     },
     {
       "id": 2,
       "name": "Entei",
-      "image": "./images/Entei.png"
+      "image": "./images/Entei.png",
+      "clicked": false
     },
     {
       "id": 3,
       "name": "Groudon",
-      "image": "./images/Groudon.png"
+      "image": "./images/Groudon.png",
+      "clicked": false
     },
     {
       "id": 4,
       "name": "Kyogre",
-      "image": "./images/Kyogre.png"
+      "image": "./images/Kyogre.png",
+      "clicked": false
     },
     {
       "id": 5,
       "name": "Moltres",
-      "image": "./images/Moltres.png"
+      "image": "./images/Moltres.png",
+      "clicked": false
     },
     {
       "id": 6,
       "name": "Raikou",
-      "image": "./images/Raikou.png"
+      "image": "./images/Raikou.png",
+      "clicked": false
     },
     {
       "id": 7,
       "name": "Rayquaza",
-      "image": "./images/Rayquaza.png"
+      "image": "./images/Rayquaza.png",
+      "clicked": false
     },
     {
       "id": 8,
       "name": "Regice",
-      "image": "./images/Regice.png"
+      "image": "./images/Regice.png",
+      "clicked": false
     },
     {
       "id": 9,
       "name": "Regirock",
-      "image": "./images/Regirock.png"
+      "image": "./images/Regirock.png",
+      "clicked": false
     },
     {
       "id": 10,
       "name": "Registeel",
-      "image": "./images/Registeel.png"
+      "image": "./images/Registeel.png",
+      "clicked": false
     },
     {
       "id": 11,
       "name": "Suicine",
-      "image": "./images/Suicune.png"
+      "image": "./images/Suicune.png",
+      "clicked": false
     },
     {
       "id": 12,
       "name": "Zapdos",
-      "image": "./images/Zapdos.png"
+      "image": "./images/Zapdos.png",
+      "clicked": false
     }
   ]
