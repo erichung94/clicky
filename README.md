@@ -10,6 +10,8 @@ Use of React.js, bootstrap, css, and html. Is partially mobile responsive, thoug
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Notes: Still need to create media queries for screens larger than 1080p
+
 ## Available Scripts
 
 In the project directory, you can run:
