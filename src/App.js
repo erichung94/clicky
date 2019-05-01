@@ -13,29 +13,55 @@ const styles = {
   },
 }
 
+function shuffleArray(array) {
+  let i = array.length - 1;
+  for (; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    const temp = array[i];
+    array[i] = array[j];
+    array[j] = temp;
+  }
+  return array;
+} 
+
 class App extends React.Component {
   state = {
     pokemon,
     score: 0,
     topScore: 0,
-    clicked: false
   };
 
+  
   handleScoreIncrement = (id) => {
-    console.log(pokemon[id-1].clicked);
-    if(pokemon[id-1].clicked === false){
-      pokemon[id-1].clicked = true;
+    console.log(this.state.pokemon)
+    var scanPokemon = this.state.pokemon
+    for(let j=0;j<scanPokemon.length;j++){
+      if (id===scanPokemon[j].id){
+        console.log("Found it! " + scanPokemon[j].id);
+        var identifier = scanPokemon[j];
+      }
+    }
+    if (!identifier.clicked){
+      identifier.clicked = true;
+      console.log(identifier.name);
       this.setState({score: this.state.score + 1})
     }
-    else{
+    else {
       for (let i=0; i<pokemon.length;i++){
         pokemon[i].clicked=false;
-        this.setState({score: 0})
       }
-
+      if (this.state.score > this.state.topScore){
+        this.setState({topScore: this.state.score})
+      }
+      this.setState({score: 0})
     }
+    this.setState({pokemon: shuffleArray(pokemon)});
+   
+    
+
+
   }
-  
+
 
   render() {
     return <div>
@@ -44,7 +70,7 @@ class App extends React.Component {
         <Wrapper>
           {this.state.pokemon.map(pokeman => (
             <PokemonCard
-              clicked = {this.clicked}
+              clicked = {pokeman.clicked}
               handleScoreIncrement = {this.handleScoreIncrement}
               id={pokeman.id}
               key={pokeman.id}
