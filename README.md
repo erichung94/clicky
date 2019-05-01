@@ -1,6 +1,7 @@
 # Pokemon Clicky Game
 
 Deployed Link: https://erichung94.github.io/clicky/ <br>
+
 Instructions: Click on any image to begin. Avoid clicking images you have clicked before, and get the maximum score of 12!
 
 ## Development
