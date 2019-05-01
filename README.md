@@ -1,3 +1,11 @@
+##Pokemon Clicky Game
+
+Instructions: Click on any image to begin. Avoid clicking images you have clicked before, and get the maximum score of 12!
+
+## Development
+
+Use of React.js, bootstrap, css, and html. Is partially mobile responsive, though is something to work on in the future.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
