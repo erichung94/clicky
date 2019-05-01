@@ -10,7 +10,7 @@ const styles = {
     width: "100%",
     color: "white",
     textAlign: "center",
-  },
+  }
 }
 
 function shuffleArray(array) {
@@ -66,7 +66,6 @@ class App extends React.Component {
   render() {
     return <div>
       <h1> Score: {this.state.score} | Top Score: {this.state.topScore}</h1>
-      <div>
         <Wrapper>
           {this.state.pokemon.map(pokeman => (
             <PokemonCard
@@ -78,10 +77,6 @@ class App extends React.Component {
             />
           ))}
         </Wrapper>
-        <div class="footer navbar-fixed-bottom" style={styles.footer}>
-          <span style={styles.span}>Whatabatbingbong</span>
-        </div>
-      </div>
     </div>
   
   }
